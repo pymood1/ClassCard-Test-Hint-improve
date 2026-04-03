@@ -92,7 +92,7 @@ def get_account() -> dict:
 
 
 account = get_account()
-print("크로니움 불러오는 중.")
+print("크롬 불러오는 중.")
 
 chrome_options = Options()
 chrome_options.add_argument("--disable-blink-features=AutomationControlled")
